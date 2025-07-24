@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 questions_dir = Path("questions")
-output_file = Path("topics.json")
+output_file = Path("static/topics.json")
 
 unique_slugs = set()
 

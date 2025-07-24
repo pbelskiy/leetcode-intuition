@@ -4,10 +4,10 @@ import time
 import os
 import re
 
-os.makedirs("questions", exist_ok=True)
+os.makedirs("static/questions", exist_ok=True)
 
 def get_existing_indices():
-    files = os.listdir("questions")
+    files = os.listdir("static/questions")
     indices = [
         int(re.match(r"(\d+)\.json", f).group(1))
         for f in files
@@ -106,7 +106,7 @@ for skip in range(0, 3700, 100):
         detail = fetch_question_detail(q["titleSlug"])
         if not detail:
             continue
-        filename = f"questions/{next_index:04}.json"
+        filename = f"static/questions/{next_index:04}.json"
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(detail, f, indent=2, ensure_ascii=False)
         print(f"✅ Done: {filename}")
