@@ -1,0 +1,24 @@
+{
+  "questionId": "214",
+  "title": "Shortest Palindrome",
+  "content": "<p>You are given a string <code>s</code>. You can convert <code>s</code> to a <span data-keyword=\"palindrome-string\">palindrome</span> by adding characters in front of it.</p>\n\n<p>Return <em>the shortest palindrome you can find by performing this transformation</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> s = \"aacecaaa\"\n<strong>Output:</strong> \"aaacecaaa\"\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> s = \"abcd\"\n<strong>Output:</strong> \"dcbabcd\"\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= s.length &lt;= 5 * 10<sup>4</sup></code></li>\n\t<li><code>s</code> consists of lowercase English letters only.</li>\n</ul>\n",
+  "difficulty": "Hard",
+  "topicTags": [
+    {
+      "name": "String",
+      "slug": "string"
+    },
+    {
+      "name": "Rolling Hash",
+      "slug": "rolling-hash"
+    },
+    {
+      "name": "String Matching",
+      "slug": "string-matching"
+    },
+    {
+      "name": "Hash Function",
+      "slug": "hash-function"
+    }
+  ]
+}
